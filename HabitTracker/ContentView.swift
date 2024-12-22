@@ -10,16 +10,27 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @Query private var items: [Habit]
+    
+    @State private var showAddHabit = false
+    @State private var newHabitName = ""
 
     var body: some View {
         NavigationSplitView {
             List {
-                ForEach(items) { item in
+                ForEach(items) { habit in
                     NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
+                        VStack(alignment: .leading) {
+                            Text("Habit: \(habit.name)").font(.title)
+                            Text("Created on: \(habit.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
+                            Text("Progress: \(habit.progress)")
+                        }
+                        .padding()
                     } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
+                        VStack(alignment: .leading) {
+                            Text(habit.name).font(.headline)
+                            Text("Progress: \(habit.progress)").font(.subheadline)
+                        }
                     }
                 }
                 .onDelete(perform: deleteItems)
@@ -30,21 +41,42 @@ struct ContentView: View {
                 }
                 ToolbarItem {
                     Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
+                        Label("Add Habit", systemImage: "plus")
                     }
                 }
             }
         } detail: {
-            Text("Select an item")
+            Text("Select a habit")
+        }
+        .sheet(isPresented: $showAddHabit) {
+            VStack {
+                Text("Add a New Habit").font(.headline)
+                TextField("Habit name", text: $newHabitName)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .padding()
+                Button("Save") {
+                    saveHabit()
+                }
+                .buttonStyle(.borderedProminent)
+                .padding()
+            }
+            .padding()
         }
     }
 
     private func addItem() {
+        showAddHabit = true
+        }
+
+    private func saveHabit() {
         withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
+            let newHabit = Habit(name: newHabitName, timestamp: Date())
+            modelContext.insert(newHabit)
+            showAddHabit = false
+            newHabitName = ""
         }
     }
+    
 
     private func deleteItems(offsets: IndexSet) {
         withAnimation {
@@ -57,5 +89,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+        .modelContainer(for: Habit.self, inMemory: true)
 }

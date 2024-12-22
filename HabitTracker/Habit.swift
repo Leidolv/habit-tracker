@@ -9,10 +9,14 @@ import Foundation
 import SwiftData
 
 @Model
-final class Item {
+final class Habit {
+    var name: String
     var timestamp: Date
+    var progress: Int
     
-    init(timestamp: Date) {
+    init(name: String, timestamp: Date, progress: Int = 0) {
+        self.name = name
         self.timestamp = timestamp
+        self.progress = progress
     }
 }
