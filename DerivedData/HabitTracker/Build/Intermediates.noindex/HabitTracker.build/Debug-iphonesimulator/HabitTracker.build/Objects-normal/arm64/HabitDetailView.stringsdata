@@ -1,0 +1,40 @@
+{
+  "source": "/Users/leidolv/Documents/HabitTracker/HabitTracker/HabitTracker/HabitDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Habit: %@",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "Created on: %@",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "Progress: %lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Increase Progress",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 21
+        }
+      }
+    ]
+  },
+  "version": 1
+}

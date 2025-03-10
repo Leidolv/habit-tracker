@@ -1,0 +1,10 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "01e65da1022045e78add54bca7c292ee6902b972f5cdb0a4e0e16063c2d17211"
+build_start_time: [1739376528, 953698000]
+build_end_time: [1739376530, 105346000]
+inputs:
+  ? "/Users/leidolv/Documents/HabitTracker/HabitTracker/DerivedData/HabitTracker/Index.noindex/Build/Intermediates.noindex/HabitTracker.build/Debug-iphonesimulator/HabitTracker.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1739376525, 660420753]
+  "/Users/leidolv/Documents/HabitTracker/HabitTracker/HabitTracker/ContentView.swift": [1735911805, 448600286]
+  "/Users/leidolv/Documents/HabitTracker/HabitTracker/HabitTracker/Habit.swift": [1734883081, 556437698]
+  "/Users/leidolv/Documents/HabitTracker/HabitTracker/HabitTracker/HabitTrackerApp.swift": [1734803973, 509104108]

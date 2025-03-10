@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99213BED2D7F3E01008D47D4 /* HabitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99213BEC2D7F3E01008D47D4 /* HabitDetailView.swift */; };
+		99213BEF2D7F3E50008D47D4 /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99213BEE2D7F3E50008D47D4 /* AddHabitView.swift */; };
 		99AA18962D04DC3800B0DECB /* HabitTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AA18952D04DC3800B0DECB /* HabitTrackerApp.swift */; };
 		99AA18982D04DC3800B0DECB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AA18972D04DC3800B0DECB /* ContentView.swift */; };
 		99AA189A2D04DC3800B0DECB /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AA18992D04DC3800B0DECB /* Habit.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99213BEC2D7F3E01008D47D4 /* HabitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailView.swift; sourceTree = "<group>"; };
+		99213BEE2D7F3E50008D47D4 /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
 		99AA18922D04DC3800B0DECB /* HabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99AA18952D04DC3800B0DECB /* HabitTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerApp.swift; sourceTree = "<group>"; };
 		99AA18972D04DC3800B0DECB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 				99AA18952D04DC3800B0DECB /* HabitTrackerApp.swift */,
 				99AA18972D04DC3800B0DECB /* ContentView.swift */,
 				99AA18992D04DC3800B0DECB /* Habit.swift */,
+				99213BEC2D7F3E01008D47D4 /* HabitDetailView.swift */,
+				99213BEE2D7F3E50008D47D4 /* AddHabitView.swift */,
 				99AA189B2D04DC3A00B0DECB /* Assets.xcassets */,
 				99AA189D2D04DC3A00B0DECB /* Preview Content */,
 			);
@@ -194,7 +200,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					99AA18912D04DC3800B0DECB = {
 						CreatedOnToolsVersion = 15.4;
@@ -262,7 +268,9 @@
 			files = (
 				99AA18982D04DC3800B0DECB /* ContentView.swift in Sources */,
 				99AA189A2D04DC3800B0DECB /* Habit.swift in Sources */,
+				99213BED2D7F3E01008D47D4 /* HabitDetailView.swift in Sources */,
 				99AA18962D04DC3800B0DECB /* HabitTrackerApp.swift in Sources */,
+				99213BEF2D7F3E50008D47D4 /* AddHabitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +487,6 @@
 		99AA18BC2D04DC3B00B0DECB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -499,7 +506,6 @@
 		99AA18BD2D04DC3B00B0DECB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -519,7 +525,6 @@
 		99AA18BF2D04DC3B00B0DECB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RVKW242UDP;
@@ -537,7 +542,6 @@
 		99AA18C02D04DC3B00B0DECB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RVKW242UDP;

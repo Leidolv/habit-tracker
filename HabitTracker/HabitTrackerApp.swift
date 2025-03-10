@@ -11,17 +11,22 @@ import SwiftData
 @main
 struct HabitTrackerApp: App {
     var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Habit.self,
-        ])
+        let schema = Schema([Habit.self])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
         do {
             return try ModelContainer(for: schema, configurations: [modelConfiguration])
         } catch {
-            fatalError("Could not create ModelContainer: \(error)")
+            print("⚠️ Error creating ModelContainer: \(error.localizedDescription)")
+            do {
+                return try ModelContainer(for: schema, configurations: [ModelConfiguration(schema: schema, isStoredInMemoryOnly: true)])
+            } catch {
+                fatalError("❌ Critical error: Failed to create even an in-memory ModelContainer. \(error.localizedDescription)")
+            }
         }
     }()
+
+
 
     var body: some Scene {
         WindowGroup {

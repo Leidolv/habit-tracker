@@ -1,0 +1,24 @@
+{
+  "" : {
+    "dependencies" : "/Users/leidolv/Documents/HabitTracker/HabitTracker/DerivedData/HabitTracker/Index.noindex/Build/Intermediates.noindex/HabitTracker.build/Debug-iphonesimulator/HabitTracker.build/Objects-normal/arm64/HabitTracker-master.d",
+    "diagnostics" : "/Users/leidolv/Documents/HabitTracker/HabitTracker/DerivedData/HabitTracker/Index.noindex/Build/Intermediates.noindex/HabitTracker.build/Debug-iphonesimulator/HabitTracker.build/Objects-normal/arm64/HabitTracker-master.dia",
+    "emit-module-dependencies" : "/Users/leidolv/Documents/HabitTracker/HabitTracker/DerivedData/HabitTracker/Index.noindex/Build/Intermediates.noindex/HabitTracker.build/Debug-iphonesimulator/HabitTracker.build/Objects-normal/arm64/HabitTracker-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/leidolv/Documents/HabitTracker/HabitTracker/DerivedData/HabitTracker/Index.noindex/Build/Intermediates.noindex/HabitTracker.build/Debug-iphonesimulator/HabitTracker.build/Objects-normal/arm64/HabitTracker-master-emit-module.dia",
+    "swift-dependencies" : "/Users/leidolv/Documents/HabitTracker/HabitTracker/DerivedData/HabitTracker/Index.noindex/Build/Intermediates.noindex/HabitTracker.build/Debug-iphonesimulator/HabitTracker.build/Objects-normal/arm64/HabitTracker-master.swiftdeps"
+  },
+  "/Users/leidolv/Documents/HabitTracker/HabitTracker/DerivedData/HabitTracker/Index.noindex/Build/Intermediates.noindex/HabitTracker.build/Debug-iphonesimulator/HabitTracker.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/leidolv/Documents/HabitTracker/HabitTracker/HabitTracker/ContentView.swift" : {
+
+  },
+  "/Users/leidolv/Documents/HabitTracker/HabitTracker/HabitTracker/Habit.swift" : {
+
+  },
+  "/Users/leidolv/Documents/HabitTracker/HabitTracker/HabitTracker/HabitDetailView.swift" : {
+
+  },
+  "/Users/leidolv/Documents/HabitTracker/HabitTracker/HabitTracker/HabitTrackerApp.swift" : {
+
+  }
+}

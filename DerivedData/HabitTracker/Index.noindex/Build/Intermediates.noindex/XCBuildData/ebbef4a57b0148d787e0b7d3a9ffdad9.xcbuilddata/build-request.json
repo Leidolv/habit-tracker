@@ -1,0 +1,54 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "4391033d60cc7c0be5d2714a83f41ae8a0f50ad88723c838861f4c17d01c9ac9"
+    },
+    {
+      "guid" : "4391033d60cc7c0be5d2714a83f41ae8fe53cee9353be65fc5442590ab7ba7ce"
+    },
+    {
+      "guid" : "4391033d60cc7c0be5d2714a83f41ae8c59d1896ab841f1f023e629143e08226"
+    }
+  ],
+  "containerPath" : "/Users/leidolv/Documents/HabitTracker/HabitTracker/HabitTracker.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/leidolv/Documents/HabitTracker/HabitTracker/DerivedData/HabitTracker/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/leidolv/Documents/HabitTracker/HabitTracker/DerivedData/HabitTracker/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/leidolv/Documents/HabitTracker/HabitTracker/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/leidolv/Documents/HabitTracker/HabitTracker/DerivedData/HabitTracker/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/leidolv/Documents/HabitTracker/HabitTracker/DerivedData/HabitTracker/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/leidolv/Documents/HabitTracker/HabitTracker/DerivedData/HabitTracker/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/leidolv/Documents/HabitTracker/HabitTracker/DerivedData/HabitTracker/Build/Products",
+      "pchPath" : "/Users/leidolv/Documents/HabitTracker/HabitTracker/DerivedData/HabitTracker/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

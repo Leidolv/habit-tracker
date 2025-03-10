@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+Target 'HabitTrackerUITests' in project 'HabitTracker' (no dependencies)
+Target 'HabitTrackerUITests' in project 'HabitTracker'
+➜ Explicit dependency on target 'HabitTracker' in project 'HabitTracker'
+Target 'HabitTrackerUITests' in project 'HabitTracker'
+➜ Explicit dependency on target 'HabitTracker' in project 'HabitTracker'
+Target 'HabitTrackerTests' in project 'HabitTracker' (no dependencies)
+Target 'HabitTrackerTests' in project 'HabitTracker'
+➜ Explicit dependency on target 'HabitTracker' in project 'HabitTracker'
+Target 'HabitTrackerTests' in project 'HabitTracker'
+➜ Explicit dependency on target 'HabitTracker' in project 'HabitTracker'
+Target 'HabitTracker' in project 'HabitTracker' (no dependencies)
+Target 'HabitTracker' in project 'HabitTracker' (no dependencies)
