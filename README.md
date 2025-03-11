@@ -1,22 +1,27 @@
 # HabitTracker
 
-HabitTracker — это приложение для отслеживания привычек, созданное с использованием Swift и SwiftUI.
+HabitTracker is a habit-tracking app built with Swift and SwiftUI.
 
-## Основные функции:
-- Добавление новых привычек.
-- Просмотр информации о привычках.
-- Удаление привычек.
+## Features:
+- Add new habits.
+- View habit details.
+- Delete habits.
 
-## Установка:
-1. Склонируйте репозиторий:
+## Recent Fixes & Improvements:
+- Fixed ModelContainer initialization to properly handle errors.
+- Resolved Swift standard library embedding issue in test targets.
+- Applied recommended Xcode build settings for better compatibility.
+
+## Installation:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/твой-репозиторий.git
-Откройте проект в Xcode.
-Запустите приложение на симуляторе или устройстве.
+   git clone https://github.com/your-repository.git
+2. Open the project in Xcode.
+3. Run the app on a simulator or a physical device.
 
-Планы на будущее:
+## Future Plans:
 
-Реализация изменения прогресса привычек.
-Улучшение пользовательского интерфейса.
-Добавление уведомлений для напоминаний.
+Implement habit progress tracking.
+Improve the user interface.
+Add notification reminders.
 
