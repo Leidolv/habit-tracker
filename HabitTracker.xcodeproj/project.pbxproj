@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		99213BEC2D7F3E01008D47D4 /* HabitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailView.swift; sourceTree = "<group>"; };
 		99213BEE2D7F3E50008D47D4 /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
+		99213BF02D80840B008D47D4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		99AA18922D04DC3800B0DECB /* HabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99AA18952D04DC3800B0DECB /* HabitTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerApp.swift; sourceTree = "<group>"; };
 		99AA18972D04DC3800B0DECB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 		99AA18892D04DC3800B0DECB = {
 			isa = PBXGroup;
 			children = (
+				99213BF02D80840B008D47D4 /* .gitignore */,
 				99AA18942D04DC3800B0DECB /* HabitTracker */,
 				99AA18A72D04DC3B00B0DECB /* HabitTrackerTests */,
 				99AA18B12D04DC3B00B0DECB /* HabitTrackerUITests */,
