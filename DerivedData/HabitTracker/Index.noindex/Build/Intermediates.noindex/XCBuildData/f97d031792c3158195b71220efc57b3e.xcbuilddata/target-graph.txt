@@ -1,3 +1,0 @@
-Target dependency graph (2 targets)
-Target 'HabitTracker' in project 'HabitTracker' (no dependencies)
-Target 'HabitTracker' in project 'HabitTracker' (no dependencies)
